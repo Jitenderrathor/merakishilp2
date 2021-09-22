@@ -1,0 +1,88 @@
+/* =========== media Query At xl View Port =========== */
+
+@media screen and (max-width: 1200px) {}
+
+
+/* =========== media Query At lg View Port =========== */
+
+@media screen and (max-width: 992px) {
+    .header nav .container ul li:hover .nav-link {
+        color: black !important;
+    }
+    .header nav .container .collapse>ul li .sub1 {
+        position: static;
+        opacity: 1;
+        height: 0;
+        overflow: hidden;
+        transform: translateY(0px);
+        background-color: #ffffff;
+        transition: all 0.5s;
+        z-index: -10;
+    }
+    .header nav .container .collapse>ul li:hover .sub1 {
+        height: 170px;
+    }
+    .header nav .container .collapse>ul li .sub2 {
+        position: static;
+        top: 100%;
+        padding: 0;
+        height: 0;
+        overflow: hidden;
+        transform-origin: top;
+        transform: rotateX(0deg);
+        background-color: #ffffff;
+        transition: all 0.5s;
+    }
+    .header nav .container .collapse>ul li:hover .sub2 {
+        height: 170px;
+    }
+    .header nav .container .collapse>ul li .sub3 {
+        position: static;
+        top: 100%;
+        padding: 0;
+        opacity: 1;
+        height: 0;
+        overflow: hidden;
+        transform: translateY(0px);
+        background-color: #ffffff;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    .header nav .container .collapse>ul li:hover .sub3 {
+        height: 170px;
+    }
+    .header nav .container .hover {
+        width: 0px;
+        height: 0%;
+        position: static;
+        top: 100%;
+        z-index: 0;
+    }
+    .products .row {
+        height: 1020px;
+    }
+}
+
+
+/* =========== media Query At md View Port =========== */
+
+@media screen and (max-width: 768px) {
+    .products .row {
+        height: 1600px;
+    }
+}
+
+
+/* =========== media Query At sm View Port =========== */
+
+@media screen and (max-width: 576px) {
+    .products .row {
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .products .row {
+        height: 850px;
+    }
+}
