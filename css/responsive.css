@@ -61,6 +61,13 @@
     .products .row {
         height: 1020px;
     }
+    .products .row .content .back {
+        width: 100%;
+        height: 476px;
+        padding-left: 10px;
+        padding-top: 200px;
+        text-align: center;
+    }
 }
 
 
@@ -70,6 +77,10 @@
     .products .row {
         height: 1600px;
     }
+    .products .row .content .back {
+        height: 462px;
+        padding-top: 150px;
+    }
 }
 
 
@@ -77,12 +88,19 @@
 
 @media screen and (max-width: 576px) {
     .products .row {
-        height: 1250px;
+        height: 1300px;
+    }
+    .products .row .content .back {
+        height: 266px;
+        padding-top: 100px;
     }
 }
 
 @media screen and (max-width: 360px) {
     .products .row {
         height: 850px;
+    }
+    .products .row .content .back {
+        height: 266px;
     }
 }

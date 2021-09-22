@@ -408,11 +408,13 @@ h6.text-center:hover a {
     height: 413px;
     margin: 10px 0;
     border-radius: 10px;
+    display: block;
     transition: all .5s;
 }
 
 .products .row .content:hover .front {
     transform: rotateY(180deg);
+    display: none;
 }
 
 .products .row .content .back {
